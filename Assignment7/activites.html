@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4L Outdoors</title>
+  <style>
+
+    body {background-color: rgb(166, 166, 76)}
+    h1, h3 {color: rgb(111, 76, 31)}
+    table {
+      width: 80%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: .5px solid #ddd;
+      padding: 6%;
+    }
+    th {
+      background-color: #362b27;
+      color: rgb(138, 126, 66);
+    }
+    tr:nth-child(even) {
+      background-color: #c8e98f;
+    }
+  </style>
+</head>
+<body>
+
+  <a style="float: right; padding: 10px" href="index.html">HOME</a>
+  <a style="float: right; padding: 10px" href="activities.html">FLY FISHING SERVICES</a>
+
+    <h1 style="text-align: left;">4L Outdoors</h1> 
+
+    <img src="https://flyfilmtour.com/wp-content/uploads/2023/12/RF-07-min-2048x1365.jpg" alt="Big brown on a streamer" title="Ann's Big Brown" width="33%" height="auto"/>
+    <img src="https://www.montanaangler.com/sites/default/files/styles/full/public/uploads/2023-03/_900x600_img_4833.jpg.jpg?itok=nbk9_-1c" alt="Taking lunch on the side of the river" title="Lunch With a View" width="33%" height="auto"/>
+    <img src="https://www.montanaangler.com/sites/default/files/uploads/2020-10/montana-fly-fishing-slideshow-gripngrins-47.jpg" alt="Big brown on a dry fly" title="Fish of a Lifetime" width="33%" height="auto"/>   
+
+    <h3 style="text-align: center;">Fly Fishing Services</h3>
+  
+  <table>
+    <tr>
+      <th></th>
+      <th scope="col">Where</th>
+      <th scope="col">Status</th>
+    </tr>
+    <tr>
+      <th scope="row">Trout</th>
+      <td>Blackfoot River, Clarkfork River, Bitteroot River, and Rock Creek.</td>
+      <td><input type="checkbox" id="task1"></td>
+    </tr>
+    <tr>
+      <th scope="row">Bass or Pike </th>
+      <td>Flathead River, Clark Fork River, as well as various lakes around the area.</td>
+      <td><input type="checkbox" id="task2"></td>
+    </tr>
+    <tr>
+      <th scope="row">Wade Mission</th>
+      <td>There are counless creeks in the area, so if youd rather fish on foot let us know!</td>
+      <td><input type="checkbox" id="task3"></td>
+    </tr>
+    <tr>
+      <th scope="row">Secret Spots</th>
+      <td>Places that don't get as much presssure are special! We would be more than happy to share that experience!</td>
+      <td><input type="checkbox" id="task4"></td>
+    </tr>
+  </table>
+
+  <form action="hforal44@gmail.com" method="post" enctype="text/plain">
+    <h3 style="text-align: center;">Book Now</h3>
+    <fieldset>
+       <legend>Ask Any Question You Might Have!</legend>
+       <label>Your Email:<br />
+          <input type="email" name="email" required /></label>
+       <br />
+       <label>Suggested Activity:<br />
+          <input type="text" name="activity" required /></label>
+       <br />
+       <label>Description of the Activity:<br />
+          <textarea name="description" rows="4" cols="50" placeholder="Describe activity here..." required></textarea></label>
+    </fieldset>
+    
+    <br/>
+    
+    <input type="submit" value="Submit Suggestion" />
+ </form>
+
+
+</body>
+</html>

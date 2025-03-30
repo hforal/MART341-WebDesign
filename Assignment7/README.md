@@ -1,0 +1,2 @@
+1. Im proud about just getting through the code and makeing a somwhat presentable website. This is hard for me to do and it feels very good to have something good looking come out at the end. 
+2. This was hard for me to figure out, I'm not very good at code but it sure is satifying. I've been extremely busy and struggled with getting this done but I'm glad its finally out there and looks good. 
