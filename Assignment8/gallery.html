@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4L Outdoors</title>
+
+    <style>
+        /* Layout Styles */
+        body {
+            background-color: rgb(166, 166, 76);
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        /* Header & Nav */
+        #logo {
+            text-align: left;
+            text-decoration: none;
+            color: rgb(111, 76, 31);
+        }
+
+        nav {
+            float: right;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+        }
+
+        h1, h2, h3, p {
+            color: rgb(111, 76, 31);
+            text-align: center;
+        }
+
+        .special-note {
+            font-weight: bold;
+        }
+
+        /* Gallery Section */
+        .Gallery-selection {
+            width: 90%;
+            margin: 0 auto;
+            padding: 0 20px 20px 20px;
+            overflow: hidden;
+        }
+
+        .Gallery {
+            width: 30%;
+            float: left;
+            margin: 1.66%;
+            padding: 15px;
+            background-color: #3a3d6e;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+        }
+
+        .Gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        /* Media Section */
+        .media-section {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .media-item {
+            float: left;
+            margin: 1.66%;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .audio-section {
+            width: 30%;
+            height: 350px;
+            background-color: #f2fcff;
+        }
+
+        .local-fly-shop {
+            width: 63%;
+            height: 350px;
+            background-color: #f2fcff;
+        }
+
+        iframe {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="activities.html">ACTIVITIES</a>
+        <a href="gallery.html">GALLERY</a>
+    </nav>
+
+    <h1>
+        <a id="logo" href="index.html">4L Outdoors</a>
+    </h1>
+
+    <!-- Hero Video -->
+    <div id="hero-video">
+        <video autoplay muted loop style="width: 100%; height: auto;">
+            <source src="https://videos.pexels.com/video-files/30890703/13207574_3840_2160_30fps.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <h1 style="margin-top: 30px;">• Gallery •</h1>
+
+    <!-- Gallery Section -->
+    <div class="Gallery-selection">
+        <div class="Gallery">
+            <img src="https://images.ctfassets.net/fbkgl98xrr9f/2GjOm7R5vsXAZFqwB4rzyK/42296c389b530b30418b898db0eac69b/IMG_5148.JPG?fm=webp&q=75&w=1320&h=580" alt="Streamer Eater">
+            <h2>Bitteroot Brown Trout</h2>
+            <p><span class="special-note">Spring time</span> is a great time to be fishing for the next caliber of fish.</p>
+            <p>Tactic: <span class="special-note">Streamer</span></p>
+        </div>
+
+        <div class="Gallery">
+            <img src="https://www.montanaangler.com/sites/default/files/uploads/2016-01/montana-fly-fishing-slideshow-gripngrins-45_0.jpg" alt="Cold day rewards">
+            <h2>Clark Fork Brown Trout</h2>
+            <p><span class="special-note">Summer time</span> rain and chiller days bring out the biggins!</p>
+            <p>Tactic: <span class="special-note">Nymph</span></p>
+        </div>
+
+        <div class="Gallery">
+            <img src="https://content.osgnetworks.tv/flyfisherman/content/photos/SpringThing-HERO-1200x800.jpg" alt="Colored up rainbow">
+            <h2>Blackfoot Rainbow Trout</h2>
+            <p>This <span class="special-note">Rainbow</span> ate the salmonfly as soon as it hit the water!</p>
+            <p>Tactic: <span class="special-note">Dry Fly</span></p>
+        </div>
+
+        <div class="Gallery">
+            <img src="https://content.osgnetworks.tv/flyfisherman/content/photos/SecretSeason-HERO-1200x800.jpg" alt="Cutbow Giant">
+            <h2>Blackfoot Cutbow</h2>
+            <p>This <span class="special-note">winter time</span> giant shows fishing in the summer isn't the only option.</p>
+            <p>Tactic: <span class="special-note">Nymph</span></p>
+        </div>
+
+        <div class="Gallery">
+            <img src="https://content.osgnetworks.tv/flyfisherman/content/photos/HighWater-HERO-1200x800.jpg" alt="High water fish">
+            <h2>Clark Fork Brown</h2>
+            <p>Guide <span class="special-note">Jim</span> with a high water giant out of the Clark Fork.</p>
+            <p>Tactic: <span class="special-note">Streamer</span></p>
+        </div>
+
+        <div class="Gallery">
+            <img src="https://risingriverguides.com/wp-content/uploads/2023/08/516C42FC-2C30-4E0D-9AA4-9E320A69B9DB-2-1024x937.jpg" alt="Small water Cutty">
+            <h2>Blackfoot Cutthroat</h2>
+            <p>Longtime <span class="special-note">client Greg</span> with a beauty of a cutthroat.</p>
+            <p>Tactic: <span class="special-note">Dry Fly</span></p>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+    <!-- Media Section -->
+    <div class="media-section">
+        <div class="media-item audio-section">
+            <h3>Sound of the River</h3>
+            <img src="https://images.pexels.com/photos/1179225/pexels-photo-1179225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="River" style="width: 90%; height: auto; max-height: 150px; margin-bottom: 10px;">
+            <audio controls loop>
+                <source src="https://cdn.freesound.org/sounds/587/587112-b124f75b-b24d-4ee8-b673-40e677538dbb?filename=587112__matteoorefice__river-sounds.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <p style="font-size: 20px;">Audio: River Sounds by 
+                <a href="https://freesound.org/people/matteo.orefice/sounds/587112/" target="_blank">matteo.orefice</a>
+            </p>
+        </div>
+
+        <div class="media-item local-fly-shop">
+            <h3>Need Gear?</h3>
+<p>Check out <a href="https://kingfisherflyshop.com" target="_blank" rel="noopener noreferrer">The Kingfisher Fly Shop</a> for top-notch fly fishing gear!</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</body>
+</html>
+        
