@@ -67,3 +67,9 @@ Cool the Cookies
 
 Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.
 
+TIPS:
+Use Room Temperature Ingredients: Make sure your butter, eggs, and other ingredients are at room temperature. This ensures they mix together more easily and results in a better cookie texture.
+Measure Flour Correctly: Too much flour can make your cookies dry. Use the spoon-and-level method—spoon the flour into your measuring cup and level it off with a knife.
+Chill the Dough: Let your cookie dough chill in the fridge for at least 30 minutes before baking. Chilled dough helps the cookies keep their shape and enhances the flavor.
+Use Good Quality Chocolate: Go for high-quality chocolate chips or chunks. The chocolate is the star of the cookie, so using better quality can make a big difference in taste.
+Don’t Overmix: When you add the dry ingredients to the wet ones, mix until just combined. Overmixing can lead to tough cookies.
