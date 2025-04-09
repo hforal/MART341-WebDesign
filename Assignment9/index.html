@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Chip Cookies</title>
+</head>
+
+    <style>
+        #logo {
+            text-align: left;
+            text-decoration: none;
+            color: rgb(36, 35, 35);
+        }
+        nav {
+            float: right; /* Tells the nav items to float to the right of its container */
+            padding: 0 10px 10px 10px;
+        } 
+        nav a {
+            text-decoration: none; /* Removes the underline for each link */
+            padding: 10px; /* Adds spacing around each link */
+            color: rgb(56, 90, 29); /* Set a color for the text */
+            display: inline-block; /* Ensures the links are treated like blocks within the nav */
+        }   
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: rgb(255, 249, 229); /* Light beige background */
+        }
+        h1 {
+            color: rgb(102, 51, 0); /* Dark brown */
+            margin-top: -25px;
+        }    
+        h2, p {
+            color: rgb(56, 90, 29); /* Greenish brown for headers and text */
+            text-align: center;
+        }
+        h3 {
+            color: rgb(102, 51, 0); /* Dark brown */
+            text-align: center;
+        }
+        .instructions-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5%;
+            justify-content: space-around;
+        }
+        .instruction {
+            width: 31%; /* or adjust as needed */
+            padding: 15px 30px 30px 30px;
+            margin: 17px 0; /* Adds space on the top and bottom */
+            background-color: #f2f4d2; /* Light yellow-green */
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .instruction img {
+            width: 100%; /* Makes images full width of container */
+            height: auto;
+        }
+
+        .materials-list {
+            columns: 3; /* Splits the list into three columns */
+            column-gap: 20px; /* Adjusts space between columns */
+            list-style-position: inside;
+            margin: 1.66%;
+            padding: 25px 25px 25px 100px;
+            background-color: #f2f4d2; /* Light yellow-green */
+            box-sizing: border-box; /* Ensures padding and border are included in width */
+        }                                                                                                                                                                            
+        .tips-list {
+            columns: 3; /* Splits the list into three columns */
+            column-gap: 20px; /* Adjusts space between columns */
+            list-style-position: inside;
+            margin: 1.66%;
+            padding: 25px 25px 25px 100px;
+            background-color: #f2f4d2; /* Light yellow-green */
+            box-sizing: border-box; /* Ensures padding and border are included in width */
+        }
+
+        .special-note {
+            font-weight: bold;
+        }
+
+        .spacer {
+            display: block;
+            height: 20px; /* Adjust height as needed */
+            width: 100%; /* Ensures it spans full width if needed */
+        }
+
+        .video-banner {
+            width: 100%; /* Full viewport width */
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .video-banner video {
+            width: 100%; /* Makes the video full width */
+            height: auto; /* Maintains aspect ratio */
+            object-fit: cover; /* Crops the video to fill the container */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a style="float: right; padding: 10px" href="contact.html">CONTACT</a>
+        <a style="float: right; padding: 10px" href="about.html">ABOUT</a>
+        <b><a style="float: right; padding: 10px" href="index.html">KINDLE & CRAFT</a></b>
+    </nav>
+    
+    <div class="video-banner">
+        <video src="https://videos.pexels.com/video-files/852375/852375-sd_640_360_24fps.mp4" autoplay muted loop></video>
+    </div>  
+
+    <br>
+    <br>
+    <h1 style="text-align: center;">Delicious Chocolate Chip Cookies</h1>
+    <h3 style="text-align: center; margin-top: -10px;">The Ultimate Chocolate Chip Cookie Recipe</h3> 
+    <p style="width: 70%; margin: auto; padding-bottom: 10px;">Making chocolate chip cookies is a timeless and delightful treat for all occasions. With just a few basic ingredients, you can create soft, chewy, and utterly delicious cookies that are perfect for sharing with family and friends. Here's how to make the best homemade chocolate chip cookies!</p>
+
+    <br>
+    <hr style="width: 40%; margin: auto;"/>
+                
+    <p style="width: 70%; margin: auto; padding-top: 20px;">Customize your cookies by adding nuts, using different types of chocolate, or adjusting the baking time for a crispier or chewier result. These cookies will make your kitchen smell heavenly!</p>
+    <br>                                                                                                                                                                       <!-- Materials -->
+    <div class="materials-section">
+
+        <div class="materials-section">
+            <img src="images/chocolate_chip_cookie_ingredients.jpg" alt="" width="100%" height="auto">
+            <h2>Materials</h2>
+            <ul class="materials-list">
+                <li>2 1/4 cups all-purpose flour</li>
+                <li>1/2 teaspoon baking soda</li>
+                <li>1 cup unsalted butter, room temperature</li>
+                <li>1/2 cup granulated sugar</li>
+                <li>1 cup packed brown sugar</li>
+                <li>2 teaspoons vanilla extract</li>
+                <li>2 large eggs</li>
+                <li>2 cups semisweet chocolate chips</li>
+                <li>1/2 teaspoon salt</li>
+                <li>Optional: 1 cup chopped walnuts or pecans</li>
+              </ul>
+        </div>
+    
+    <!-- Instructions -->
+    <h2>Instructions</h2>
+    <div class="instructions-section">
+
+        <div class="instruction">
+            <h2>Step 1</h2>
+            <img src="https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Ingredients for cookies">
+            <h3>Preheat Oven & Prepare Baking Sheets</h3>
+            <p>Preheat your oven to 350°F (175°C). Line baking sheets with parchment paper or silicone mats for easy cleanup.</p>
+            <input type="checkbox">
+        </div>
+
+        <div class="instruction">
+            <h2>Step 2</h2>
+            <img src="https://images.pexels.com/photos/7965955/pexels-photo-7965955.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Creaming butter and sugar">
+            <h3>Cream Butter & Sugars</h3>
+            <p>In a large bowl, beat together the butter, granulated sugar, and brown sugar until light and fluffy. Add the eggs and vanilla, and mix until combined.</p>
+            <input type="checkbox">
+        </div>
+
+        <div class="instruction">
+            <h2>Step 3</h2>
+            <img src="https://images.pexels.com/photos/8477738/pexels-photo-8477738.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Adding dry ingredients to batter">
+            <h3>Combine Dry Ingredients</h3>
+            <p>In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.</p>
+            <input type="checkbox">
+        </div>
+
+        <div class="instruction">
+            <h2>Step 4</h2>
+            <img src="https://images.pexels.com/photos/675955/pexels-photo-675955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Adding chocolate chips to dough">
+            <h3>Fold in Chocolate Chips</h3>
+            <p>Gently fold in the chocolate chips (and nuts, if desired) until evenly distributed throughout the dough.</p>
+            <input type="checkbox">
+        </div>
+
+        <div class="instruction">
+            <h2>Step 5</h2>
+            <img src="https://images.pexels.com/photos/31116129/pexels-photo-31116129/free-photo-of-chocolate-chip-cookie-dough-on-baking-sheet.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Scooping cookie dough">
+            <h3>Scoop Dough onto Baking Sheets</h3>
+            <p>Using a cookie scoop or spoon, drop tablespoon-sized balls of dough onto the prepared baking sheets, spacing them about 2 inches apart.</p>
+            <input type="checkbox">
+        </div>
+
+        <div class="instruction">
+            <h2>Step 6</h2>
+            <img src="https://plus.unsplash.com/premium_photo-1673967816735-fcbeec26553a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hvY29sYXRlJTIwY2hpcCUyMGNvb2tpZXN8ZW58MHx8MHx8fDA%3D" alt="Cookies baking in the oven">
+            <h3>Bake the Cookies</h3>
+            <p>Bake for 10-12 minutes, or until the edges are golden brown. Keep an eye on them, as baking times can vary slightly.</p>
+            <input type="checkbox">
+        </div>                                                                                                                                                                    <div class="instruction">
+            <h2>Step 7</h2>
+            <img src="https://images.unsplash.com/photo-1584847801423-852691e41bc7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hvY29sYXRlJTIwY2hpcCUyMGNvb2tpZXN8ZW58MHx8MHx8fDA%3D" alt="Cooling freshly baked cookies">
+            <h3>Cool the Cookies</h3>
+            <p>Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</p>
+            <input type="checkbox">
+        </div>
+
+    </div>
+        
+ <!-- Tips -->
+ <div class="tips-section">
+
+   
