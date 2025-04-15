@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'CustomFlyFont';
+    src: url('fonts/montserrat.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e6f2f0;
+    margin: 0;
+    padding: 0;
+    color: #03363d;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #015958;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-family: 'CustomFlyFont', sans-serif;
+    font-size: 2.8rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  section {
+    background-color: #ffffff;
+    border: 1px solid #b5e3db;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  h2 {
+    color: #015958;
+    border-bottom: 2px solid #b5e3db;
+    padding-bottom: 0.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 1.2rem;
+  }
+  
+  ul li h3 {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+    color: #017f75;
+  }
+  
+  blockquote {
+    background-color: #f0fdfa;
+    border-left: 4px solid #2a7f74;
+    padding: 1rem;
+    font-style: italic;
+    margin: 1rem 0;
+  }
+  
+  footer {
+    background-color: #015958;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Buttons */
+  .button {
+    background-color: #017f75;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #015958;
+    text-decoration: underline;
+  }
+  
+  /* Pseudo-class example */
+  section:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional techniques */
+  p {
+    letter-spacing: 0.5px;
+  }
+  
+  h3 {
+    font-weight: 700;
+  }
+  
+  h2::after {
+    content: ' 🎣';
+  }
