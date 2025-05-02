@@ -1,0 +1,146 @@
+/* Google Font */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e6f2f0;
+    margin: 0;
+    padding: 0;
+    color: #03363d;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #015958;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Navigation */
+  .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .nav-menu li {
+    position: relative;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+  
+  /* Dropdown */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #017f75;
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #015958;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  /* Section Cards */
+  section {
+    background-color: #ffffff;
+    border: 1px solid #b5e3db;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  h2 {
+    color: #015958;
+    border-bottom: 2px solid #b5e3db;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Review Blockquotes (used in Reviews page) */
+  blockquote {
+    background-color: #f0fdfa;
+    border-left: 4px solid #2a7f74;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  
+  /* Button (if needed) */
+  .button {
+    background-color: #017f75;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #015958;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #015958;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul.nav-menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

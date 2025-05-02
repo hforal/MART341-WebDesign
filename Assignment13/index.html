@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>River Run Fly Fishing</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Base styles */
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #e6f2f0;
+      margin: 0;
+      padding: 0;
+      color: #03363d;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #015958;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: #017f75;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      position: relative;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 1rem;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li:hover > ul {
+      display: block;
+    }
+
+    nav ul ul {
+      display: none;
+      position: absolute;
+      background-color: #017f75;
+      top: 100%;
+      left: 0;
+      min-width: 150px;
+      z-index: 1000;
+    }
+
+    nav ul ul li a {
+      padding: 0.75rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      background-color: #ffffff;
+      border: 1px solid #b5e3db;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #015958;
+      border-bottom: 2px solid #b5e3db;
+      padding-bottom: 0.5rem;
+    }
+
+    .button {
+      background-color: #017f75;
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #015958;
+    }
+
+    footer {
+      background-color: #015958;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li a {
+        padding: 0.75rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>River Run Fly Fishing</h1>
+    <p>Master the Art of the Cast</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li>
+        <a href="#">More</a>
+        <ul>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="tools.html">Tools</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to Our Workshop Series</h2>
+      <p>Whether you're just getting started or looking to refine your technique, our fly fishing workshops are the perfect way to improve your skills. Led by expert guides with decades of on-the-water experience, our classes take place in some of Montana's most beautiful rivers and lakes. Discover the secrets of successful casting, fly selection, and fish behavior through hands-on learning and guided practice.</p>
+    </section>
+
+    <section class="workshop">
+      <h2>Upcoming Workshops</h2>
+      <ul>
+        <li>
+          <h3>Beginner's Casting Clinic – May 15</h3>
+          <p>This half-day clinic introduces the basics of fly casting, rod setup, and knot tying. Perfect for absolute beginners or those needing a refresher. All equipment provided.</p>
+        </li>
+        <li>
+          <h3>Reading the Water – June 12</h3>
+          <p>Learn how to identify trout-holding water and adapt your approach based on flow, structure, and season. Includes guided on-stream fishing practice and analysis.</p>
+        </li>
+        <li>
+          <h3>Backcountry Trout Tactics – July 20</h3>
+          <p>Take your skills to the next level with this immersive full-day adventure. We'll hike into remote alpine streams, focusing on stealth techniques, dry fly strategies, and selective feeding behaviors.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <h2>Why Learn with River Run?</h2>
+      <p>We believe that fly fishing is more than a sport — it's a way to connect with nature, challenge yourself, and find peace in the present moment. Our small-group workshops are tailored to individual skill levels and led by professional guides who are passionate about sharing their love of fly fishing. We provide personalized feedback, high-quality equipment, and access to exclusive fishing spots you won’t find in any guidebook.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 River Run Fly Fishing | Montana, USA | contact@riverrunflyfishing.com</p>
+  </footer>
+</body>
+</html>
