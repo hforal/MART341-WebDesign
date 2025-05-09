@@ -1,0 +1,105 @@
+/* style.css for Explore America - Final Project */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fbfc;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #4cc9f0;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+  }
+  
+  .nav-link:hover {
+    color: #ffbe0b !important;
+  }
+  
+  .hero-split {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+  }
+  
+  .hero-image {
+    flex: 1 1 50%;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80') center / cover no-repeat;
+  }
+  
+  .hero-content {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f9fd;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .section-cards {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .feature-card {
+    background-color: #f1faff;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-card i {
+    font-size: 2rem;
+    color: #00b4d8;
+  }
+  
+  footer {
+    background-color: #003049;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+  
+  .destination-img {
+    width: 100%;
+    border-radius: 8px;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  
+  .card {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
